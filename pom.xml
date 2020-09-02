@@ -419,6 +419,7 @@
     <module>transport-blockhound-tests</module>
     <module>microbench</module>
     <module>bom</module>
+    <module>netty-learning</module>
   </modules>
 
   <dependencyManagement>
@@ -905,6 +906,7 @@
                 <sourceDirectory>${project.build.sourceDirectory}</sourceDirectory>
                 <sourceDirectory>${project.build.testSourceDirectory}</sourceDirectory>
               </sourceDirectories>
+              <skip>true</skip>
             </configuration>
           </execution>
         </executions>
